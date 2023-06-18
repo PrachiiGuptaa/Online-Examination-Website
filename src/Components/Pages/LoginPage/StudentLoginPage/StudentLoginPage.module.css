@@ -1,0 +1,82 @@
+.wrapper{
+    height: 97vh;
+    padding-top: 1rem;
+}
+
+.sideImg{
+    margin-top: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: 70vh;
+    margin-left: 17rem;
+    gap: 5rem;
+}
+
+.sideImg img{
+    height: 40vh;
+    margin-left: -3rem;
+}
+
+.loginInputs{
+    border-radius: 1rem;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loginInputs h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+.loginInputs input{
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(108, 99, 255, 0.5);;
+}
+
+.loginInputs input:focus{
+    outline: none;
+    border: 2px solid #005A9C;
+    box-shadow: 0 0 5px rgba(108, 99, 255, 0.5);
+}
+
+.loginInputs button{
+  padding: 0.7rem ;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 0.7rem;
+  background-color: #5072A7;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.loginInputs button:hover {
+    background-color: #004792;
+}
+
+.loginInputs button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(108, 99, 255, 0.5);
+}
+
+.loginInputs button:active {
+    transform: translateY(0.3rem);
+}
+
+.loginInputs span{
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

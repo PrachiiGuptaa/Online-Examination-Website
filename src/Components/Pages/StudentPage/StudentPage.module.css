@@ -1,0 +1,97 @@
+.wrapper{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.questions{
+    width: 20rem;
+    height: 32rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0.5rem 0.5rem 1rem gray;
+    background-color: white;
+    padding: 1rem;
+}
+
+.questions img{
+    height: 8rem;
+}
+
+.optionsContainer{
+    display: flex;
+    margin-right: 4rem;    
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.card{
+    width: 60vw;
+    box-shadow: 0.6rem 0.6rem 0.6rem gray;
+    background-color: white;
+    /* box-shadow: 2rem 2rem 2rem gray; */
+}
+
+.card p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    /* border: 2px solid pink; */
+}
+
+.card ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.wrapper button{
+    padding: 1rem ;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.7rem;
+    background-color: #17B169;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 1rem;
+}
+
+.result button{
+    padding: 1rem ;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.7rem;
+    background-color: #17B169;
+    color: #ffffff;
+    cursor: pointe3r;
+    margin-top: 1.3rem;
+    margin-bottom: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+

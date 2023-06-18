@@ -1,0 +1,49 @@
+.wrapper{
+    background: url('https://t4.ftcdn.net/jpg/02/71/71/53/360_F_271715382_9kTJItQsqf76w69pgzJRRQWATVFo4E34.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    transform: scaleX(-1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    color: white;
+    transform: scaleX(-1);
+    margin-right: 50rem;
+    width: 100vw;
+    height: 70vh;
+}
+
+.container h2{
+    font-size: 3rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.loginBtn{
+    height: 60vh;
+    line-height: 10rem;
+    
+}
+
+.loginBtn Button{
+    font-family: 'Times New Roman', Times, serif;
+    padding: 1.5rem 1.5rem;
+    border: none;
+    border-radius: 2rem;
+    cursor: pointer;
+    font-size: 2rem;
+    word-wrap: normal;
+    width: 20rem;
+    box-shadow: 0.5rem 0.5rem 1rem gray;
+}
+
+.loginBtn Button:hover{
+    background-color: #E2DFD2;
+}
+
+.loginBtn Button:focus{
+    outline: none;
+}

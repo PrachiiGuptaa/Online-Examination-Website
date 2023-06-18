@@ -1,0 +1,26 @@
+.wrapper{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper Button{
+    padding: 1rem ;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 0.7rem;
+    background-color: #17B169;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.wrapper button:hover {
+    background-color: #018749;
+}
+
+.wrapper button:active {
+    transform: translateY(0.3rem);
+}
